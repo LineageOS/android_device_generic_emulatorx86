@@ -8,7 +8,8 @@ include device/generic/x86/BoardConfig.mk
 
 # Build OpenGLES emulation libraries
 BUILD_EMULATOR_OPENGL := true
+BUILD_EMULATOR_OPENGL_DRIVER := true
 
 # share the same one across all mini-emulators
-BOARD_EGL_CFG := device/generic/mini-emulator-armv7-a-neon/egl.cfg
+BOARD_EGL_CFG := device/generic/goldfish/opengl/system/egl/egl.cfg
 
