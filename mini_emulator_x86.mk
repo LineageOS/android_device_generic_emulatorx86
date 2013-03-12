@@ -21,5 +21,6 @@ PRODUCT_DEVICE := mini-emulator-x86
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := mini-emulator-x86
 
-# share the same goldfish kernel, but should have fuse support
-LOCAL_KERNEL := prebuilts/qemu-kernel/x86/kernel-qemu
+LOCAL_KERNEL := prebuilts/qemu-kernel/x86/3.4/kernel-qemu
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
