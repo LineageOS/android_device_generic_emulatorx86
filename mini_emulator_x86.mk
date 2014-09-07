@@ -16,6 +16,9 @@ $(call inherit-product, device/generic/x86/mini_x86.mk)
 
 $(call inherit-product, device/generic/mini-emulator-armv7-a-neon/mini_emulator_common.mk)
 
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
 PRODUCT_NAME := mini_emulator_x86
 PRODUCT_DEVICE := mini-emulator-x86
 PRODUCT_BRAND := Android
