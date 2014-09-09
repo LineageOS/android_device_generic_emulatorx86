@@ -20,7 +20,3 @@ PRODUCT_NAME := emulatorx86
 PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Mini Emulator x86
-
-LOCAL_KERNEL := prebuilts/qemu-kernel/x86/kernel-qemu
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
