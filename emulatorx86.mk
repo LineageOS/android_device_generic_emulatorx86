@@ -16,13 +16,10 @@ $(call inherit-product, device/generic/x86/mini_x86.mk)
 
 $(call inherit-product, device/generic/mini-emulator-armv7-a-neon/mini_emulator_common.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
-PRODUCT_NAME := mini_emulator_x86
-PRODUCT_DEVICE := mini-emulator-x86
+PRODUCT_NAME := emulatorx86
+PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := mini-emulator-x86
+PRODUCT_MODEL := Mini Emulator x86
 
 LOCAL_KERNEL := prebuilts/qemu-kernel/x86/kernel-qemu
 PRODUCT_COPY_FILES += \

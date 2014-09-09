@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mini_emulator_x86.mk
+    $(LOCAL_DIR)/emulator_x86.mk
