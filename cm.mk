@@ -8,3 +8,5 @@ PRODUCT_NAME := cm_emulatorx86
 PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := CyanogenMod
 PRODUCT_MODEL := Full CyanogenMod on x86 Emulator
+
+bacon: droid
