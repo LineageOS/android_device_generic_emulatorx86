@@ -20,3 +20,5 @@ PRODUCT_NAME := emulatorx86
 PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Mini Emulator x86
+
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
