@@ -34,6 +34,24 @@
       "revId": "9d5910d9dc92ede98e8b5ac5505661348e726de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a9d85d2_4c25f2c0",
+        "filename": "emulatorx86.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-01-17T10:23:40Z",
+      "side": 1,
+      "message": "On the AOSP x86-19 image, the \u0027ro.adb.secure\u0027 prop simply doesn\u0027t exist. Probably has the same effect as \u003d0; i\u0027m not aware of any other way to simply remove it via this file since it\u0027s set in vendor/cm/config/common.mk",
+      "parentUuid": "5a9d85d2_6c7eeeaf",
+      "revId": "9d5910d9dc92ede98e8b5ac5505661348e726de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
