@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_cc8e0227",
+        "filename": "emulatorx86.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-01-17T08:21:26Z",
+      "side": 1,
+      "message": "Is this prop set like this in the SDK android? I\u0027m just concerned if this would introduce some security vulnerability, even if it is just an emulator.",
+      "revId": "9d5910d9dc92ede98e8b5ac5505661348e726de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
