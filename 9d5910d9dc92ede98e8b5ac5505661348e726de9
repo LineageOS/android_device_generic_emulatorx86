@@ -16,6 +16,24 @@
       "revId": "9d5910d9dc92ede98e8b5ac5505661348e726de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a9d85d2_6c7eeeaf",
+        "filename": "emulatorx86.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-01-17T10:13:05Z",
+      "side": 1,
+      "message": "Yeah, all this does is prevent the \"authorize\" dialog from showing up, it\u0027s how the engineering bootloader accomplishes it as well. Normally adbd on the device detects when a USB adb connection has been made and then pops that dialog, but since that doesn\u0027t happen with the emulator then no dialog ever shows.",
+      "parentUuid": "5a9d85d2_cc8e0227",
+      "revId": "9d5910d9dc92ede98e8b5ac5505661348e726de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
