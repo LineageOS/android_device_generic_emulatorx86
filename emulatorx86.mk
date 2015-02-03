@@ -16,6 +16,8 @@ $(call inherit-product, device/generic/x86/mini_x86.mk)
 
 $(call inherit-product, device/generic/mini-emulator-armv7-a-neon/mini_emulator_common.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_x86.mk)
+
 PRODUCT_NAME := emulatorx86
 PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := Android
