@@ -7,7 +7,6 @@
 include device/generic/x86/BoardConfig.mk
 
 TARGET_KERNEL_SOURCE := prebuilts/qemu-kernel/x86
-TARGET_KERNEL_CONFIG := cyanogenmod_emulatorx86_x86_defconfig
 TARGET_PREBUILT_KERNEL := prebuilts/qemu-kernel/x86/kernel-qemu
 
 # Build OpenGLES emulation libraries
