@@ -9,4 +9,4 @@ PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := LineageOS
 PRODUCT_MODEL := Full LineageOS on x86 Emulator
 
-bacon: droid
+bacon: droid emulator emulator-x86 libOpenglRender bios.bin vgabios-cirrus.bin libEGL_translator libGLES_CM_translator libGLES_V2_translator
