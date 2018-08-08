@@ -1,12 +1,12 @@
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/generic/emulatorx86/emulatorx86.mk)
 
-PRODUCT_NAME := cm_emulatorx86
+PRODUCT_NAME := lineage_emulatorx86
 PRODUCT_DEVICE := emulatorx86
-PRODUCT_BRAND := CyanogenMod
-PRODUCT_MODEL := Full CyanogenMod on x86 Emulator
+PRODUCT_BRAND := LineageOS
+PRODUCT_MODEL := Full LineageOS on x86 Emulator
 
 bacon: droid
